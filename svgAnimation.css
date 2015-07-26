@@ -1,0 +1,150 @@
+/* The element to apply the animation to */
+body{
+  font-family: 'Arvo', serif;
+}
+.sad_clouds{
+  width: 6em;
+  position: relative;
+  left: -150px;
+}
+.happy_clouds{
+  left: 10em;
+}
+.clouds{
+    z-index: 10;
+    overflow-x: hidden;
+    width: 6em;
+}
+#cloud_collection li{
+  list-style: none;
+}
+#feeds{
+  position: absolute;
+  top:2em;
+  right:1em;
+  z-index: 25;
+}
+#feeds li{
+  box-shadow: 10px 5px 5px #fff9c5;
+  padding-top: 2em;
+  list-style: none;
+  width: 20em;
+}
+.happy_feed{
+  color: #fb6666;
+}
+.sad_feed{
+  color: #30f;
+}
+#manhattan{
+  width: 25em;
+  top: 8em;
+  position:fixed;
+  z-index: -10;
+  margin: auto;
+  left:25em;
+}
+#ripple_collection{
+  width: 25em;
+  top: 8em;
+  position:fixed;
+  z-index: 10;
+  margin: auto;
+  left:25em;
+}
+
+.happy_ripples circle, ellipse{
+  animation: happy_rip 15s 15s ease-in-out infinite backwards;
+  transform-origin: 50% 50%;
+}
+.happy_ripples path:nth-of-type(1){
+  transform-origin: 50% 50%;
+  animation: happy_rip 10s 20s ease-in-out infinite backwards;
+}
+.happy_ripples path:nth-of-type(2){
+  transform-origin: 50% 50%;
+  animation: happy_rip 10s 15s ease-in-out infinite backwards;
+}
+
+.sad_ripples circle{
+  animation: sad_rip 15s 20s ease-in-out infinite backwards;
+  transform-origin: 50% 50%;
+}
+.sad_ripples path:nth-of-type(1){
+  transform-origin: 50% 50%;
+  animation: sad_rip 10s 25s ease-in-out infinite backwards;
+}
+.sad_ripples path:nth-of-type(2){
+  transform-origin: 50% 50%;
+  animation: sad_rip 10s 15s ease-in-out infinite backwards;
+}
+
+@keyframes floatAcross {
+  50% {transform: translate(30em, 8%);}
+  100% {transform: translate(70em, 12%);}
+}
+
+@keyframes makeItRain {
+  0%{opacity: 0}
+  50% {transform: translate(30em, 10%); opacity: 0}
+  90% {transform: translate(35em, 95%); opacity: .75; fill: #fff9c5;}
+  100% {transform: translate(35em, 100%); opacity: .5; fill: #40d4b0;}
+}
+
+@keyframes happy_rip{
+  0%{opacity: .3; transform: scale(.5);}
+  25% {opacity: .5; fill: #fb6666;}
+  50% {opacity: .5; fill: #fff9c5; transform: scale(1.1);}
+  75% {opacity: .2; fill: #fb6666;}
+  100%{opacity: .3; fill: #fff9c5; transform: scale(.5);}
+}
+
+@keyframes sad_rip{
+  0%  {opacity: .3; ransform: scale(.5);}
+  25% {opacity: .5; fill:#3300ff;}
+  50% {opacity: .5; fill:#40d4b0; transform: scale(1.3);}
+  75% {opacity: .2; fill:#3300ff;}
+  100%{opacity: .3; fill:#fff9c5; transform: scale(.5);}
+}
+
+@keyframes shine{
+  0%{transform: translate(45em, 0);}
+  25%{transform: translate(30em, 20%) rotate(45deg); }
+  50%{transfrom: translate(35em, 5%) rotate(90deg);}
+  75%{transform: translate(20em, 15%) rotate(180deg);}
+  100%{transform: translate(30em, 30%) rotate(90deg);}
+}
+     /*transform: matrix(0.9, -0.05, -0.375, 1.375, 220, 20);*/
+
+#sad1{
+  animation: floatAcross 10s ease infinite backwards;
+  animation-delay: 3s;
+}
+#rain1{
+  animation: makeItRain 10s ease infinite;
+  animation-delay: 3s;
+}
+
+#sad2{
+  animation: floatAcross 10s ease infinite backwards;
+  animation-delay: 6s;
+}
+#rain2{
+  animation: makeItRain 10s ease infinite;
+  animation-delay: 6s;
+}
+
+#sad3{
+  animation: floatAcross 10s ease infinite backwards;
+}
+#rain3{
+  animation: makeItRain 10s ease infinite;
+}
+
+#happy1{
+  animation: shine 25s ease-in-out infinite backwards;
+}
+#happy2{
+  animation: shine 10s ease-in-out infinite backwards;
+  animation-delay: 6s;
+}

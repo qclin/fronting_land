@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="../svgAnimation.css" ?> 
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="416px"
+	 height="490px" viewBox="0 0 416 490" enable-background="new 0 0 416 490" xml:space="preserve">
+
+<g class="ripples">
+	<g class="happy_ripples" id="first">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M150.5,327.277c9.085-8.084,9.085-14.638,0-14.638
+			c-9.084,0-23.814,6.554-32.898,14.638s-9.084,14.637,0,14.637S141.416,335.361,150.5,327.277z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M123.178,327.277
+			c4.541-5.498,13.093-9.956,19.098-9.956c6.006,0,7.191,4.458,2.649,9.956s-13.093,9.955-19.099,9.955
+			C119.821,337.232,118.635,332.775,123.178,327.277z"/>
+		
+			<ellipse fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="134.051" cy="327.277" rx="5.298" ry="5.274"/>
+	</g>
+	<g class="happy_ripples">
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M72.325,349.929
+				c6.07,0.354,8.388-1.963,5.175-5.175c-3.211-3.212-10.736-6.104-16.807-6.457s-8.387,1.963-5.174,5.176
+				C58.73,346.684,66.256,349.575,72.325,349.929z"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.295,343.793
+				c-1.607-2.557,0.322-4.484,4.307-4.309c3.985,0.178,8.518,2.393,10.123,4.949c1.607,2.556-0.322,4.484-4.307,4.308
+				S60.9,346.348,59.295,343.793z"/>
+			<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="66.51" cy="344.113" r="3.44"/>
+		</g>
+	</g>
+	<g class="sad_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M130.993,280.212c4.542-4.042,4.542-7.319,0-7.319
+			s-11.907,3.277-16.449,7.319s-4.542,7.318,0,7.318S126.451,284.254,130.993,280.212z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M116.931,280.212
+			c2.271-2.975,6.726-5.386,9.95-5.386c3.224,0,3.996,2.411,1.725,5.386c-2.271,2.974-6.726,5.384-9.949,5.384
+			C115.432,285.596,114.66,283.186,116.931,280.212z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="122.768" cy="280.211" r="3.451"/>
+	</g>
+	<g class="sad_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M162.8,219.781c6.021-5.357,6.021-9.7,0-9.7
+			s-15.781,4.343-21.802,9.7s-6.021,9.7,0,9.7S156.779,225.139,162.8,219.781z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M144.271,219.781
+			c3.011-3.881,8.865-7.027,13.078-7.027s5.188,3.146,2.177,7.027s-8.865,7.027-13.077,7.027
+			C142.236,226.808,141.262,223.662,144.271,219.781z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="151.899" cy="219.781" r="4.354"/>
+	</g>
+	<g class="sad_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M182.834,285.79
+			c7.284,0.424,10.064-2.356,6.211-6.211c-3.855-3.854-12.885-7.323-20.168-7.747c-7.284-0.425-10.063,2.355-6.211,6.21
+			C166.521,281.896,175.55,285.366,182.834,285.79z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M167.084,278.427
+			c-1.926-3.13,0.438-5.495,5.283-5.282c4.843,0.212,10.332,2.921,12.26,6.051c1.927,3.129-0.438,5.494-5.281,5.282
+			C174.5,284.266,169.012,281.556,167.084,278.427z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="175.855" cy="278.811" r="4.354"/>
+	</g>
+	<g class="happy_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M239.5,220.277c9.085-8.084,9.085-14.638,0-14.638
+			c-9.084,0-23.814,6.554-32.898,14.638s-9.084,14.637,0,14.637S230.416,228.361,239.5,220.277z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M212.649,220.029
+			c4.542-5.244,12.882-9.496,18.626-9.496s6.719,4.252,2.177,9.496s-12.882,9.495-18.626,9.495S208.107,225.273,212.649,220.029z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="223.051" cy="219.781" r="4.354"/>
+	</g>
+	<g class="happy_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M294.438,157.628
+			c6.07,0.354,8.387-1.963,5.176-5.176c-3.213-3.211-10.737-6.103-16.807-6.456c-6.07-0.354-8.387,1.963-5.176,5.175
+			C280.844,154.383,288.367,157.274,294.438,157.628z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M281.5,151.492
+			c-1.605-2.505,0.281-4.392,4.215-4.215s8.424,2.351,10.03,4.855c1.605,2.505-0.281,4.392-4.215,4.215
+			C287.596,156.171,283.105,153.996,281.5,151.492z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="288.623" cy="151.812" r="3.254"/>
+	</g>
+	<g class="sad_ripples">
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M312.448,105.038c4.542-4.042,4.542-7.319,0-7.319
+			s-11.907,3.277-16.449,7.319s-4.542,7.318,0,7.318S307.906,109.08,312.448,105.038z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M297.935,105.038
+			c2.271-3.224,6.929-5.837,10.401-5.837s4.447,2.613,2.177,5.837c-2.271,3.223-6.929,5.836-10.401,5.836
+			S295.664,108.261,297.935,105.038z"/>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="304.224" cy="105.038" r="4.354"/>
+	</g>
+</g>
+<g id="disc" display="none">
+</g>
+</svg>

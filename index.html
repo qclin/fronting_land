@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" href = "svgAnimation.css"></link>
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <title></title>
+</head>
+<body>
+
+<ul id = "cloud_collection"> 
+  <li>
+    <object class="rains" id= "rain3" type="image/svg+xml" data="svg/rains.svg"> rains </object> 
+    <object class= "sad_clouds" id="sad3" type="image/svg+xml" data="svg/sad-04.svg"> sad cloud 3</object>
+  </li>
+  <li><object class= "happy_clouds" id ="happy1" type="image/svg+xml" data="svg/happy-02.svg"> happy cloud 1</object></li>
+
+  <li>
+    <object class="rains" id= "rain2" type="image/svg+xml" data="svg/rains.svg"> rains </object> 
+    <object class= "sad_clouds" id="sad2" type="image/svg+xml" data="svg/sad-03.svg"> sad cloud 2</object>
+  </li>
+
+  <li><object class= "happy_clouds" id ="happy2" type="image/svg+xml" data="svg/happy-03.svg"> happy cloud 2</object></li>
+  <li>
+    <object class="rains" id= "rain1" type="image/svg+xml" data="svg/rains.svg"> rains </object> 
+    <object class= "sad_clouds" id="sad1" type="image/svg+xml" data="svg/sad-02.svg"> sad cloud 1 </object>
+  </li>
+
+</ul>
+
+<object id="ripple_collection" type="image/svg+xml" data="svg/ripples.svg"> ripples </object>
+<object id="manhattan" type="image/svg+xml" data="svg/grey_manhattan.svg"> manhattan block </object>
+
+  <ul id="feeds">
+    <li id="placeholder"></li>
+  </ul>
+
+  <script> 
+
+  var text = ["happy hour at GA on", 
+  "A train is stuck on 116th again ~. ~", 
+    "the AAAAyA parade better be over soon ", 
+    "free ice cream @ union sq. who knew?  ben&jerry did it again !!", 
+    "i lost my best friend. . . in this crowd"];
+  var feeds = document.getElementById('feeds');
+  var placeholder = feeds.children[0];
+  var i = 0; 
+  var class_tag = ["sad_feed","happy_feed"];
+
+  function stream(){
+    if(i < text.length){
+      var mood = class_tag[Math.round(Math.random())];
+      var timer = Math.random() * (10000 - 2000) + 3000;
+      var newFeed = document.createElement("li");
+          newFeed.setAttribute("class", mood);
+      var d = new Date();
+      var concatStr = text[i] +" " + d.toLocaleTimeString(); 
+          newFeed.textContent = concatStr;
+      placeholder.parentNode.insertBefore(newFeed,feeds.children[0]);
+      i+=1; 
+      setInterval(stream, timer);
+    }
+  }
+  window.onload = function(){
+    setTimeout(stream, 3000);
+  };
+
+  </script>
+</body>
+</html>
